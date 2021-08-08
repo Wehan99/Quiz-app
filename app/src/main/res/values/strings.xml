@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MotoQuiz</string>
+    <string name="hints">Hints</string>
+    <string name="identify_the_car_make">Identify the Car Make</string>
+    <string name="identify_the_car">Identify the Car</string>
+    <string name="advanced_level">Advanced Level</string>
+    <string name="car_quiz">MotoQuiz</string>
+    <string name="identify">Identify</string>
+    <string name="ans">Ans</string>
+    <string name="answer_is">Click OK to see the answer</string>
+    <string name="wrong">WRONG</string>
+    <string-array name="brands">
+        <item>Toyota</item>
+        <item>Honda</item>
+        <item>Mazda</item>
+        <item>Volvo</item>
+        <item>Ferrari</item>
+        <item>Ford</item>
+    </string-array>
+</resources>

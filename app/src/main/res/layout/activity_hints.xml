@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hints">
+
+    <ImageView
+        android:id="@+id/imageViewHints"
+        android:layout_width="372dp"
+        android:layout_height="233dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.042"
+        />
+
+    <EditText
+        android:id="@+id/editTextCarHint"
+        android:layout_width="200dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="140dp"
+        android:ems="10"
+        android:hint="Enter 1 key and submit"
+        android:inputType="textCapSentences"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHints" />
+
+    <TextView
+        android:id="@+id/textViewHints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Guess the model ?"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewHints" />
+
+    <Button
+        android:id="@+id/buttonHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Submit"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCarHint"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Hints"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewKey1"
+        android:layout_width="25dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        android:inputType="textCapSentences"
+        android:text="_"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextCarHint"
+        app:layout_constraintEnd_toStartOf="@+id/textViewKey2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHints"
+        app:layout_constraintVertical_bias="0.503" />
+
+    <TextView
+        android:id="@+id/textViewKey2"
+        android:layout_width="25dp"
+        android:layout_height="45dp"
+        android:text="_"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextCarHint"
+        app:layout_constraintEnd_toStartOf="@+id/textViewKey3"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHints" />
+
+    <TextView
+        android:id="@+id/textViewKey4"
+        android:layout_width="25dp"
+        android:layout_height="45dp"
+        android:text="_"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextCarHint"
+        app:layout_constraintEnd_toStartOf="@+id/textViewKey5"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHints"
+        app:layout_constraintVertical_bias="0.503" />
+
+    <TextView
+        android:id="@+id/textViewKey3"
+        android:layout_width="25dp"
+        android:layout_height="45dp"
+        android:text="_"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextCarHint"
+        app:layout_constraintEnd_toStartOf="@+id/textViewKey4"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHints" />
+
+    <TextView
+        android:id="@+id/textViewKey6"
+        android:layout_width="25dp"
+        android:layout_height="45dp"
+        android:text="_"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextCarHint"
+        app:layout_constraintEnd_toStartOf="@+id/textViewKey7"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHints"
+        app:layout_constraintVertical_bias="0.503" />
+
+    <TextView
+        android:id="@+id/textViewKey5"
+        android:layout_width="25dp"
+        android:layout_height="45dp"
+        android:text="_"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextCarHint"
+        app:layout_constraintEnd_toStartOf="@+id/textViewKey6"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHints" />
+
+    <TextView
+        android:id="@+id/textViewKey7"
+        android:layout_width="25dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="116dp"
+        android:text="_"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewKey4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHints"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

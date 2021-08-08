@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uk.ac.westminster.mobilecw">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MobileCW">
+        //setting child intents for parent activity
+        <activity android:name=".AdvancedLevel" android:label = "@string/advanced_level"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=
+                    "uk.ac.westminster.mobilecw.MainActivity" />
+        </activity>
+
+        <activity android:name=".Hints" android:label = "@string/hints"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=
+                    "uk.ac.westminster.mobilecw.MainActivity" />
+        </activity>
+
+        <activity android:name=".IdentifyTheCar" android:label = "@string/identify_the_car"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=
+                    "uk.ac.westminster.mobilecw.MainActivity" />
+        </activity>
+
+        <activity android:name=".IdentifyTheCarMake" android:label = "@string/identify_the_car_make"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=
+                    "uk.ac.westminster.mobilecw.MainActivity" />
+        </activity>
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
